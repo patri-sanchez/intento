@@ -1,0 +1,90 @@
+*{margin:0;
+padding:0;
+}
+
+h1{
+    color: rgb(0, 26, 255);
+}
+.violeta{
+    color: blueviolet;
+}
+.titulo{
+    background-color: aqua;
+}
+
+div{
+    width:400px;height:150px;
+    background-color: fuchsia;
+    border: 4px dotted;
+    padding:40px;
+    margin:50px;
+    display: inline-table;
+    text-align: center;
+}
+div p{
+    display: table-cell;
+    vertical-align: middle;
+    font-family:impact;
+    font-size:32px;
+    text-transform: uppercase;
+    color: #330757;
+}
+
+
+
+.cajita2{
+    z-index: 2;
+    background-color: aqua;
+    width:80%;
+    height: 100px;
+    margin: 10px;
+   
+}
+.cajita3 {
+    z-index: 3;
+    background-color: darkorange;
+    width:80%;
+    height: 100px;
+    margin: 10px;
+     
+    
+   
+}
+.cajita4 {
+    position: sticky;
+    background-color: rgb(58, 133, 68);
+    width:80%;
+    height: 100px;
+    margin:10px ;
+
+padding: 50px;
+}
+.cajita5 {
+ background-color: darkred;
+ z-index: index 4;
+ width:80%;
+ height: 100px;
+ margin-left:10px;
+ padding: 50px;
+}
+ 
+body{
+    background-color: rgb(135, 227, 243);
+}
+p{
+    color: #000;
+    margin: 10px;
+    font-size: 1,3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dia{
+    color: #330757;
+}
+    
+
+ 
+
+
+
+ 

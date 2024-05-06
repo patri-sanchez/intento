@@ -33,41 +33,43 @@ div p{
 
 
 .cajita2{
-    z-index: 2;
-    background-color: aqua;
-    width:80%;
-    height: 100px;
-    margin: 10px;
-   
-}
-.cajita3 {
-    z-index: 3;
-    background-color: darkorange;
-    width:80%;
-    height: 100px;
-    margin: 10px;
-     
+   background-color: aqua;
+    width: 100%;
+    height: 10px;
+    margin: 5px;
+    position: fixed;
+    border: solid #656565;
+    float: left;
+    
     
    
 }
-.cajita4 {
-    position: sticky;
-    background-color: rgb(58, 133, 68);
-    width:80%;
-    height: 100px;
-    margin:10px ;
-
-padding: 50px;
-}
-.cajita5 {
- background-color: darkred;
- z-index: index 4;
- width:80%;
- height: 100px;
- margin-left:10px;
- padding: 50px;
-}
+.cajita3 {
  
+    background-color: rgb(10, 12, 15);
+    width: 50px;
+    height: 15px;
+    margin: 10px;  
+   padding: 10rem;
+   border: 40px;background-color: crimson;
+    
+}
+
+ .fotocajita{
+    transform: translate(4px);
+    transition:all 0,3s ;
+    width: 50px;
+    height: 15px;
+    margin: 5px;
+
+ }
+h6{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px;
+
+}
+
 body{
     background-color: rgb(135, 227, 243);
 }
@@ -83,8 +85,18 @@ p{
 }
     
 
- 
 
+ul {
+    display: flex;
+    flex-direction: row;
+}
 
+nav{
+    border: 2px red;
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: #330757;
 
- 
+}
+
+    
